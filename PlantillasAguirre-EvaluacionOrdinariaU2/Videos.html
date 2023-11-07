@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videos</title>
+    <link rel="stylesheet" href="CSS/Style.css">
+    <script>
+        function playVideo(videoId) {
+            // Abre el video en una ventana emergente
+            window.open('https://www.youtube.com/watch?v=' + videoId, 'Video de YouTube', 'width=800,height=600');
+        }
+    </script>
+</head>
+<body>
+
+
+    <div class="flex">
+        <div class="flex TituloGal">
+            <header> Videos  </header>
+        </div>
+    </div>
+
+    <div class="nav">
+        <button class="buttonNAV"><a href="index.html">Inicio</a></button>
+        <button class="buttonNAV"><a href="Galeria.html">Galeria de Fotos</a></button>
+        <button class="buttonNAV"><a href="Musica.html">Musica</a></button>
+        <button class="buttonNAV"><a href="Vida.html">Vida</a></button>
+        <button class="buttonNAV"><a href="AcercaDe.html">Acerca de</a></button>
+    </div>
+        <div class="containerImg">
+                <div class="image">
+                    <img class="video-thumbnail" src="https://img.youtube.com/vi/uvrUfUQk7cM/maxresdefault.jpg" alt="Concurso de Mates" onclick="playVideo('uvrUfUQk7cM')">
+                    <p class="description">Concurso de mates(1988)</p>
+                </div>
+                 
+                <div class="image">
+                    <img class="video-thumbnail" src="https://img.youtube.com/vi/oUtAv1VjpJ8/maxresdefault.jpg" alt="Mejores Jugadas" onclick="playVideo('oUtAv1VjpJ8')">
+                    <p class="description">Mejores Jugadas</p>
+                </div>
+
+                <div class="image">
+                    <img class="video-thumbnail" src="https://img.youtube.com/vi/tWvdli5SM7I/maxresdefault.jpg" alt="Debut con los Bulls (1984)" onclick="playVideo('tWvdli5SM7I')">
+                    <p class="description">Debut NBA (1984)</p>
+                </div>
+
+                <div class="image">
+                    <img class="video-thumbnail" src="https://img.youtube.com/vi/aiNooMh6szw/maxresdefault.jpg" alt="Ultimo Juego" onclick="playVideo('aiNooMh6szw')">
+                    <p class="description">Ultimo Juego</p>
+                </div>
+        </div>
+    </body>
+    </html>

@@ -1,0 +1,277 @@
+Header{
+    background-color: rgb(161, 4, 4);
+    font-size: 90px;
+    margin-bottom: 0px;
+}
+
+.nav{
+    background-color: black;
+    color: red;
+    text-align: center;
+    height: 50px;
+    margin: 0px;
+}
+
+.TituloIndex{
+    background-color: rgb(255, 255, 255);
+    font-size: 22px;
+    margin-left: 200px;
+    margin-right: 400px;
+    text-align: center;
+
+}
+
+.buttonNAV{
+    margin: 10px;
+    padding: 8px;
+    background-color: rgb(0, 0, 0);
+    border: 0px;
+    margin-left: 20px;
+    margin-right: 20px;
+   
+}
+
+.nav a:hover {
+    background-color:rgb(255, 0, 0);
+    color: black;
+
+}
+a{
+    text-decoration: none; 
+    font-weight: 900;
+    color:rgb(252, 252, 252);
+    background-color: rgb(0, 0, 0);
+}
+
+.flex{
+    display: flex;
+}
+
+.aside{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Titulo{
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin-left: 50px;
+}
+
+.imgTitulo{
+    max-height: 100px;
+}
+
+body{
+    background-color: rgb(255, 255, 255);
+    margin: 0;
+   
+}
+
+.secciones{
+    width: 60%;
+}
+
+.imgAside{
+    width: 100%;
+    height: auto;
+}
+
+footer{
+    margin-top: auto;
+    background-color: rgb(3, 7, 7);
+    color: antiquewhite;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    height: 150px;
+   
+}
+
+
+
+footer h2 {
+    display: block; /* Establece los elementos h1 como bloques separados */
+    margin-bottom: 10px; /* Añade espacio entre los elementos (ajusta según tus preferencias) */
+    font-size: 23px;
+}
+
+article{
+    font-size: 20px;
+}
+
+.contenedor{
+    margin-top: 40px;
+}
+
+
+
+
+
+  /*----------------SECCION GALERIA DE FOTOS-------------------------------*/
+
+.TituloGal{
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin-left: 0px; 
+    margin-right: 0px;  
+    background-color: black;
+}
+  .containerImg {
+    margin-top: 25px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.image {
+    width: 40%;
+    margin-bottom: 10px;
+    text-align: center;
+    margin: 50px;;
+    border: 10px solid #ce0505;
+}
+.imgGaleria {
+    margin-left: 15px;
+    max-height: 300px;
+    max-width: 100%;
+
+    height: auto;
+    display: block;
+}
+
+.description{
+    margin-top: 10px;
+    font-size: 23px;  
+    font-weight: bold;
+}
+ /*----------------SECCION GALERIA DE FOTOS-------------------------------*/
+
+
+
+
+
+ /*Vida----------------------------------------------------*/
+ .seccionesVida{
+    width: 98%;
+    margin-right: 50px;
+ }
+
+ h1{
+    width: 100%;
+   text-align: center;
+
+}
+
+.imagenesVida{
+    margin-left: 35%;
+    margin-right: 101px;
+    display: flex;
+}
+
+
+.tituloVida{
+    background-color: rgb(178, 8, 8);
+    font-size: 25px;
+    color: white;
+    margin-left: 20px;
+}
+
+  /*Vida----------------------------------------------------*/
+
+
+
+
+
+
+  /*Videos*-----------------------------------------------*/
+.video-thumbnail {
+            cursor: pointer;
+            margin-left: 15px;
+            max-height: 300px;
+            max-width: 100%;
+
+            height: auto;
+            display: block;
+        }
+/*Videos---------------------------------------------------*/
+
+
+/*Musica---------------------------------------------------*/
+.imagenesMusica{
+    margin-left: 30%;
+    margin-right: 100px;
+    display: flex;
+    height: 350px;
+}
+
+.audio{
+    margin-left: 40%;
+    margin-right: 100px;
+    margin-top: 10px;
+    border: #ce0505;
+    background-color: black;
+}
+
+.Footermusica{
+    margin-top: auto;
+    background-color: rgb(3, 7, 7);
+    color: antiquewhite;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+   
+}
+
+/*Musica---------------------------------------------------*/
+
+
+/*ACERCA DE-----------------------------------------------*/
+
+.Acercade{
+    width: 60%;
+    align-items: center;
+    justify-content: center;
+    margin-left: 480px;
+    background-color: rgb(165, 9, 9);
+    font-size: 100px;
+    color: white;
+    margin-top: 0px;
+}
+
+.imagen{
+    margin-left: 37%;
+    margin-right: 100px;
+    display: flex;
+    height: 400px; 
+    margin-top: 1px;
+  
+}
+
+.FooterAcerca{
+    margin-top: auto;
+    background-color: rgb(3, 7, 7);
+    color: antiquewhite;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+}
+
+.contenido{
+    margin-top: 0px;
+}
+
+.imgAsideAcerca{
+    width: 125%;
+}
+/*ACERCA DE-----------------------------------------------*/

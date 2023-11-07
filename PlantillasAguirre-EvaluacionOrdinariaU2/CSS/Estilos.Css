@@ -1,0 +1,29 @@
+html{
+    font-family: 'Anton', sans-serif;
+    font-size:large ;
+}
+h2{
+    color: beige;
+    background-color: black;
+    padding: 60px;
+    border: 20px;
+    margin:30;
+}
+
+
+div { /*EJEMPLO PADDING: tendrá espacio dentro de su borde, separando el contenido del borde.*/  
+    width: 200px;
+    height: 100px;
+    background-color: #3498db;
+    border: 2px solid #333;
+    padding: 20px;
+}
+
+h4 {  /*EJEMPLO MARGEN: tendrá espacio alrededor de su borde, creando espacio entre el elemento y otros elementos cercanos*/
+    width: 200px;
+    height: 100px;
+    background-color: #3498db;
+    border: 2px solid #333;
+    margin: 50px;
+}
+
